@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Playfair Display;
+            font-size: large;
+        }
+
+        body {
+            color: rgb(0, 0, 0);
+            background: url("https://i.pinimg.com/564x/16/e2/69/16e2699ba8c7b8ad8e690310092e43c6.jpg") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 29px 0;
+        }
+
+        .navbar {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-right: 20px;
+        }
+
+        .navbar li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(85, 77, 77);
+        }
+
+
+        header {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .left {
+            /* border: 2px solid transparent; */
+            padding: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 36%;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            Shrawani's Computer Science Chronicles
+        </div>
+
+        <div class="mid">
+            <div class="nav-container">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
